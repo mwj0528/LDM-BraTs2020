@@ -2,7 +2,7 @@
 Using LDM to perform Generation task using multiple modality data of 2D slice of BraTs2020
 
 ## Reference
-### ([[latent-diffusion](https://github.com/CompVis/latent-diffusion.git)])
+### [latent-diffusion](https://github.com/CompVis/latent-diffusion.git)
 
 ## Installation
 Implementation is conducted on Python 3.10. To install the environment, please run the following.
@@ -13,6 +13,8 @@ conda activate ldm
 ## Run
 
 I use a 6 NVIDIA TITAN RTX GPU for our experiments.
+I used an autoencoder trained using the VQGAN code in the repo below.
+### [VQ-GAN](https://github.com/mwj0528/VQGAN_BraTs2020.git)
 
 ### Train
 ```
