@@ -1,0 +1,9 @@
+base:
+- models/ldm/brats/config.yaml
+batch_size: 1
+custom_steps: 20
+eta: 1.0
+logdir: models/ldm/brats/
+n_samples: 5
+resume: models/ldm/brats/last.ckpt
+vanilla_sample: false
