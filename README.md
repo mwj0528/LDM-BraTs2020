@@ -2,7 +2,7 @@
 Using LDM to perform Generation task using multiple modality data of 2D slice of BraTs2020
 
 ## Reference
-### [latent-diffusion]([https://github.com/CompVis/taming-transformers.git])
+### ([[latent-diffusion](https://github.com/CompVis/latent-diffusion.git)])
 
 ## Installation
 Implementation is conducted on Python 3.10. To install the environment, please run the following.
